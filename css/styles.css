@@ -86,7 +86,6 @@ img {
   padding-bottom: 25px;
 }
 .header-wrap {
-  outline: 1px solid blueviolet;
   display: flex;
   align-items: center;
 }
@@ -94,11 +93,9 @@ img {
   display: flex;
 }
 .header-logo {
-  outline: 1px solid orangered;
   margin-right: 93px;
 }
 .header-list {
-  outline: 1px solid tomato;
   display: flex;
   padding: 0;
 }
@@ -107,7 +104,6 @@ img {
   padding-top: 10px;
   padding-bottom: 10px;
 
-  outline: 1px solid green;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -121,12 +117,10 @@ img {
   color: var(--accent-color);
 }
 .header-contact {
-  outline: 1px solid blue;
   display: flex;
   margin-left: auto;
 }
 .header-contact-link {
-  outline: 1px solid tomato;
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -152,8 +146,6 @@ img {
   text-align: center;
 }
 .hero-title {
-  outline: 1px solid sienna;
-
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -179,12 +171,10 @@ img {
 }
 /* ###############--Particular--###############*/
 .particular-list {
-  outline: 1px solid gold;
   display: flex;
 }
 
 .particular-list > .item:not(:last-child) {
-  outline: 1px solid palevioletred;
   margin-right: var(--gap-card);
 }
 
@@ -209,11 +199,9 @@ img {
   padding-bottom: 94px;
 }
 .work-title {
-  outline: 1px solid darkorange;
   margin-bottom: 50px;
 }
 .work-list {
-  outline: 1px solid hotpink;
   display: flex;
 }
 .work-list > .item:not(:last-child) {
@@ -226,9 +214,7 @@ img {
 .team-list {
   display: flex;
 }
-.team-list * {
-  outline: 1px solid fuchsia;
-}
+
 .team-list > .item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -269,10 +255,7 @@ img {
 {
   margin-bottom: 9px;
 }
-.footer-address *
-{
-  outline: 1px solid lawngreen;
-}
+
 .footer-list-link {
   font-style: normal;
   font-size: 14px;
@@ -328,11 +311,11 @@ img {
 .project-list > .item{
   flex-basis: calc((100% - 60px) / 3);
 
+  
+    border: 1px solid #EEEEEE;
+    background: #FFFFFF;
 }
-.project-list *
-{
-  outline: 1px solid orange;
-}
+
 .project-card-content{
   padding: 20px 24px;
 }
