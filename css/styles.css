@@ -84,6 +84,8 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 25px;
+
+  border-bottom: 1px solid #ECECEC;
 }
 .header-wrap {
   display: flex;
@@ -208,6 +210,9 @@ img {
   margin-right: var(--gap-card);
 }
 /* ###############--Team--###############*/
+.team{
+  background-color: #F5F4FA;
+}
 .team-title {
   margin-bottom: 50px;
 }
