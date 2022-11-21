@@ -35,6 +35,7 @@ img {
   padding-bottom: 94px;
 }
 .logo {
+  display: block;
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -80,6 +81,10 @@ img {
   cursor: pointer;
 }
 /* ###############--Header--###############*/
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 .header-wrap {
   outline: 1px solid blueviolet;
   display: flex;
@@ -90,15 +95,11 @@ img {
 }
 .header-logo {
   outline: 1px solid orangered;
-  display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
   margin-right: 93px;
 }
 .header-list {
   outline: 1px solid tomato;
   display: flex;
-  align-items: center;
   padding: 0;
 }
 .header-list-link {
@@ -236,8 +237,7 @@ img {
 .team-list > .item:not(:last-child) {
   margin-right: var(--gap-card);
 }
-.team-card-content
-{
+.team-card-content {
   padding-top: 30px;
   padding-bottom: 30px;
   text-align: center;
@@ -260,7 +260,19 @@ img {
   color: var(--secondary-text-color);
 }
 /* ###############--Footer--###############*/
-
+.footer {
+  background-color: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.footer-list > .item:not(:last-child)
+{
+  margin-bottom: 9px;
+}
+.footer-address *
+{
+  outline: 1px solid lawngreen;
+}
 .footer-list-link {
   font-style: normal;
   font-size: 14px;
@@ -272,6 +284,7 @@ img {
   color: #ffffff;
 }
 .footer-logo {
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
